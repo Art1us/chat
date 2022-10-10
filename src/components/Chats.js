@@ -69,7 +69,7 @@ function Chats() {
         </div>
       </div>
       <ChatEngine
-        height="calc(100vh-66px)"
+        height="calc(100vh - 66px)"
         projectID={process.env.REACT_APP_CHAT_ENGINE_ID}
         userName={user.email}
         userSecret={user.uid}
